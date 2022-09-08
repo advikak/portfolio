@@ -20,7 +20,7 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">My personal projects:</h1>
         <p className="pl-desc">
-     
+          Drag to view more
         </p>
         <div className="container py-4 px-4 justify-content-center">
           <Swiper 
@@ -55,7 +55,7 @@ const ProductList = () => {
                 <Product data={{imgSrc:"https://www.kindpng.com/picc/m/102-1023199_png-for-free-cartoon-group-of-people-png.png", desc: 'Groupifynder', title: "Completed during a 24 hour hackathon, first time using ReactJS, HTML, CSS", link:"https://github.com/advikak/group-finder"}}/>
               </SwiperSlide>
               <SwiperSlide>
-                <Product data={{imgSrc:"https://assets-global.website-files.com/5e39e095596498a8b9624af1/5ffca6e3e0d8ad9231cc2af6_Portfolio-course---final.png", desc: 'This portfolio!', title: "Used ReactJS, HTML, CSS, Bootstrap", link:"https://github.com/advikak"}}/>
+                <Product data={{imgSrc:"https://assets-global.website-files.com/5e39e095596498a8b9624af1/5ffca6e3e0d8ad9231cc2af6_Portfolio-course---final.png", desc: 'This portfolio!', title: "Used ReactJS, HTML, CSS, Bootstrap", link:"https://github.com/advikak/portfolio"}}/>
               </SwiperSlide>
               <SwiperSlide>
                 <Product data={{imgSrc:"https://images.unsplash.com/photo-1541480601022-2308c0f02487?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80", desc: 'Reaction Tester', title: "Small project I made just for practice, used JavaScript, HTML, CSS", link:"https://github.com/advikak/ReactionTester"}}/>
