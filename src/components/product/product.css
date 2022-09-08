@@ -1,0 +1,51 @@
+.p {
+    height: 50vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+  }
+  
+  .p-img {
+    width: 100%;
+  }
+
+  .p-img:hover {
+    opacity: 0.5;
+  }
+
+  .p-img:hover .text {
+    visibility: visible;
+    color: black;
+    font-weight: bolder;
+    
+  }
+
+  .text {
+    color: black;
+    font-weight: bolder;
+    visibility: hidden;
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  .p:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 7px 17px #f78398;
+
+  }
+
+  .title {
+    color: black;
+    top:500px;
+  }
+
+  .button {
+   text-decoration: none;
+   color: #f78398;
+  }
+
