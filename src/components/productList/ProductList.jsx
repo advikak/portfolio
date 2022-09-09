@@ -14,7 +14,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">My personal projects:</h1>
+        <h1 className="pl-title">My personal projects</h1>
         <p className="pl-desc">
           Swipe to view more
         </p>

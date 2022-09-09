@@ -1,7 +1,7 @@
 import React from 'react'
 import "./intro.css"
 import Sun from "../../img/sun.png"
-import { useContext, useRef, useState } from "react";
+import { useContext} from "react";
 import { ThemeContext } from "../../context";
 
 

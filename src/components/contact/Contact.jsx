@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="c">
       <div className="c-bg">
       <div className="c-wrapper">
-          <h1 className="c-title">Contact Info:</h1>
+          <h1 className="c-title">Contact Info</h1>
 
             <div className="c-info-item">
             <a href="https://github.com/advikak" target="_blank" rel="noreferrer">

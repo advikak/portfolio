@@ -1,17 +1,28 @@
 .w {
     height: 100vh;
     display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column
+   
+    flex-direction: column;
+
 
   }
   
   
   
   .w-container{
-      padding: 200px;
+      padding: 150px;
+  }
 
+  .w-desc{
+    margin-top: 50px;
+  }
+
+  .w-sub {
+    margin-top: 20px;
+  }
+
+  .slider {
+    margin-top: 80px;
   }
 
  .item {
@@ -41,12 +52,13 @@
   
   .w-title {
     font-weight: 400;
+    font-size: 80px;
   }
   
   
   .w-desc{
       font-weight: 300;
-      padding: 50px;
+     
   }
 
   
@@ -55,9 +67,13 @@
   }
   
   
-  @media screen and (max-width:880px) {
+  @media screen and (max-width:980px) {
       .w-container{
-        padding: 10px;
+        padding: 30px;
+      }
+
+      .w-title{
+        font-size: 60px;
       }
 
       .w-sub{
@@ -85,5 +101,9 @@
     width:30%;
     height: 120px;
     margin-top: 0px;
+}
+
+.slider{
+  visibility: hidden;
 }
   }

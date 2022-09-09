@@ -11,10 +11,12 @@ const Work = () => {
        Smart Technologies, Calgary AB (Summer 2021)
       </p>
       <p className="w-desc">
-      Lorem ipsum dolor sit amet. Qui nostrum architecto et quibusdam autem rem earum quis. A earum reiciendis eos fugiat ipsam qui voluptas nihil aut ipsum alias. Qui similique Quis ut rerum quia quo impedit libero ab eaque. Ad internos explicabo nam quia nobis ut dolores quod.
-
-Non magni iure eos esse voluptas aut ratione iusto vel nihil dicta vel porro perferendis vel ipsum similique. 
-        
+      While working at SMART technologies, I was able to efficiently and accurately process over 1000 software and hardware orders
+       for the company. During this process, I was met with many conflicts such as missing customer information in Salesforce, or order
+        delays causing customer dissatisfaction. In order to resolve conflicts like this I effectively communicated with the sales team,
+         as well as customers in order to ensure their satisfaction. For instance, if a product had an extended lead time, I would contact 
+         customers and inform them about the situation and alternatives, such as alternative products. I was also able to gain experience 
+         using Power BI as I volunteered to help the business analytics team with creating visualizations with defective product data.
       </p>
 
       <Carousel className="slider">
