@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    
   }
   
   .a-left {
@@ -15,10 +16,17 @@
   
   .a-right {
     flex: 1;
+    text-align: center;
+    padding-right: 100px;
+
+    align-items: center;
+    justify-content: center;
+  
+
   }
 
  h1{
-  animation: pulse 7s infinite;
+  animation: pulse 10s infinite;
 }
 
 @keyframes pulse {
@@ -26,7 +34,7 @@
     color: #FEE3E8;
   }
   50% {
-    color: #fb8da1;
+    color: #f81f47;
   }
 
   100% {
@@ -36,8 +44,7 @@
  
   .a-card.bg {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    
     background-color: #FEE3E8;
   }
   
@@ -47,19 +54,17 @@
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+    
   }
   
   .a-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    top: 50px;
   }
   
-  .a-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
-  }
+
   
   .a-title {
     font-weight: 400;
@@ -71,15 +76,32 @@
   
   .a-desc{
       font-weight: 300;
-      padding-right: 100px;
+     
   }
-  
+
+  .slider{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+
+  }
+
+
+  .carousel-indicators {
+    visibility: hidden;
+  }
+      
   
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:680px) {
     .a{
       text-align: center;
+      display: flex;
+   
+      position: relative;
+      margin-left: 100px;
     }
+
 
     .a-left {
       display: none;
@@ -93,9 +115,6 @@
       display: none;
     }
 
-    .a-desc {
-      margin-left: 95px;
-    }
 
 
     

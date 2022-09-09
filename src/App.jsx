@@ -18,7 +18,7 @@ const App = () => {
     darkMode?
     <div className="dark-page"
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
+        backgroundColor: darkMode ? "#000" : "white",
         color: darkMode && "white"
       }}
     >

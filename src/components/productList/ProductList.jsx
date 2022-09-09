@@ -10,10 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/swiper-bundle.css';
 
 
-
-
-
-
 const ProductList = () => {
   return (
     <div className="pl">

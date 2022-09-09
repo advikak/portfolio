@@ -50,6 +50,9 @@
   }
 
   
+  .carousel-indicators {
+    visibility: hidden;
+  }
   
   
   @media screen and (max-width:880px) {

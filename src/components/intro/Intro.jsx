@@ -31,7 +31,7 @@ const Intro = () => {
         </div>
 
         <div className='i-right'>
-            <div className='i-bg' style={{backgroundColor:darkMode && "#333"}}></div>
+            <div className='i-bg' style={{backgroundColor:darkMode && "#1c1d1e"}}></div>
             <img src={Sun} alt="" className="i-img" />  
         </div>
     </div>

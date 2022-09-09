@@ -1,13 +1,15 @@
 .c {
-    height: 50vh;
-    position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
   }
   
   .c-bg {
     width: 100%;
     height: 100%;
     position: absolute;
-    align-items: center;
   }
   
   
@@ -15,25 +17,23 @@
     padding: 50px;
     display: flex;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
   }
 
-  .c-info {
-    display: flex;
-    flex-direction: row;
-  }
-  
   .c-title {
     margin-top: 50px;
     font-size: 60px;
-    padding: 20px;
+
   }
   
   .c-info-item {
     display: flex;
     align-items: center;
-    margin-top: 50px;
     font-weight: 300;
     padding: 70px;
+    flex-direction: column;  
   }
   
 
@@ -49,6 +49,10 @@
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    margin:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-icon:before {

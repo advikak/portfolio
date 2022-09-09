@@ -1,12 +1,17 @@
 .page {
-    background: linear-gradient(-45deg, #ea8566, #ec7ca7, #e3abff, #b292f7);
+    background: linear-gradient(-45deg, #FF6F91, #FF9671, #FFC75F);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 13s ease infinite;
+    
 }
 
 
+body {
+    background-color: #1f1d1d
+  }
+
 .dark-page {
-    background: linear-gradient(-45deg, #50446b, #50243a, #1c1d1e, #040404);
+    background: linear-gradient(-45deg, #545454, #383838, #181818, #000000);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
