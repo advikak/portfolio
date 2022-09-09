@@ -52,8 +52,35 @@
   
   
   
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:880px) {
       .w-container{
+        padding: 10px;
+      }
+
+      .w-sub{
+        font-size: 12px;
+      }
+
+      .w-desc{
+        font-size: 15px;
         padding: 20px;
       }
+
+      .item {
+        width:50%;
+        height: 120px;
+        margin-top: 0px;
+ }
+
+ .item-2 {
+    width:35%;
+    height: 120px;
+    margin-top: 0px;
+}
+
+.item-3 {
+    width:30%;
+    height: 120px;
+    margin-top: 0px;
+}
   }

@@ -18,7 +18,7 @@
   }
 
  h1{
-  animation: pulse 5s infinite;
+  animation: pulse 7s infinite;
 }
 
 @keyframes pulse {
@@ -26,7 +26,7 @@
     color: #FEE3E8;
   }
   50% {
-    color: #fa7b92;
+    color: #fb8da1;
   }
 
   100% {
@@ -76,27 +76,27 @@
   
   
 
-  
   @media screen and (max-width:480px) {
-      .a{
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
-      }
-  
-      .a-left {
-        width: 100%;
-      }
-  
-      .a-card {
-        height: 30vh;
-      }
-  
-      .a-card.bg, .a-award {
-        display: none;
-      }
-  
-      .a-right{
-        padding: 20px;
-      }
-  }
+    .a{
+      text-align: center;
+    }
+
+    .a-left {
+      display: none;
+    }
+
+    .a-card {
+      display: none;
+    }
+
+    .a-card.bg, .a-award {
+      display: none;
+    }
+
+    .a-desc {
+      margin-left: 95px;
+    }
+
+
+    
+}

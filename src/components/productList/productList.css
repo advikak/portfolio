@@ -28,3 +28,19 @@
   }
  
 
+
+@media screen and (max-width: 680px) {
+  .pl {
+    padding: 10px;
+    height: 100vh;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+  
+  }
+}
+

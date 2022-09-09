@@ -19,12 +19,7 @@ const About = () => {
          This is epic 
         </p>
         <p className="a-desc">
-        Lorem ipsum dolor sit amet. Qui nostrum architecto et quibusdam autem rem earum quis. A earum reiciendis eos fugiat ipsam qui voluptas nihil aut ipsum alias. Qui similique Quis ut rerum quia quo impedit libero ab eaque. Ad internos explicabo nam quia nobis ut dolores quod.
-
-Non magni iure eos esse voluptas aut ratione iusto vel nihil dicta vel porro perferendis vel ipsum similique. Eum quaerat quisquam sit accusantium facere rem corporis quia sit laudantium sunt non nobis corrupti!
-
-Ex atque itaque nam dicta voluptas et praesentium voluptas. Qui voluptatum ipsum non explicabo itaque et mollitia enim.
-          
+        Lorem ipsum dolor sit amet. Qui nostrum architecto et quibusdam autem rem earum quis. A.
         </p>
       
       </div>

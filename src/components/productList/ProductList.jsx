@@ -20,7 +20,7 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">My personal projects:</h1>
         <p className="pl-desc">
-          Drag to view more
+          Swipe to view more
         </p>
         <div className="container py-4 px-4 justify-content-center">
           <Swiper 

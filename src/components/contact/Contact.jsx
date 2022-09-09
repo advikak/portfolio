@@ -15,16 +15,6 @@ const Contact = () => {
             <button className='c-icon'>Git</button>
             </a>        
             </div>
-            <div className="c-info-item">
-            <a href="http://www.google.com" target="_blank" rel="noreferrer">
-            <button className='c-icon'>Instagram</button>
-            </a>  
-            </div>
-            <div className="c-info-item">
-            <a href="http://www.google.com" target="_blank" rel="noreferrer">
-            <button className='c-icon'>Twitter</button>
-            </a>  
-            </div>
           </div>
         </div>
         </div>

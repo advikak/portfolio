@@ -5,6 +5,7 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import Work from "./components/work/Work";
+//import Navbar from "./components/navBar/Navbar";
 import { ThemeContext } from "./context";
 import "./app.css"
 
@@ -13,6 +14,7 @@ const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
+    
     darkMode?
     <div className="dark-page"
       style={{
@@ -20,6 +22,7 @@ const App = () => {
         color: darkMode && "white"
       }}
     >
+
       <Toggle />
       <Intro />
       <About />
@@ -34,6 +37,7 @@ const App = () => {
       color: darkMode && "white"
     }}
   >
+
     <Toggle />
     <Intro />
     <About />

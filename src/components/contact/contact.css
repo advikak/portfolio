@@ -98,3 +98,29 @@
     100% { background-position: 0 0; }
 }
   
+
+@media screen and (max-width: 880px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  .c {
+    padding-top: 30px;
+  }
+
+ 
+}

@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: moveToRight 1.5s ease-in-out;
+
     animation-delay: 10ms;
 
 }
@@ -113,4 +113,54 @@
     100% {
         transform: translateX(0px);
     }
+}
+
+
+@media screen and (max-width: 950px) {
+  .i {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .i-bg {
+      display: none;
+  }
+
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-img {
+      top: -20px;
+      width: 200px;
+      height: 200px;
+  }
+
+  .i-intro {
+      font-size: 20px;
+  }
+
+  .i-name {
+      font-size: 40px;
+  }
+
+  .i-title-item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
+
+  
 }
