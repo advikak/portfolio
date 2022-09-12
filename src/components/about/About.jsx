@@ -21,19 +21,18 @@ const About = () => {
          I prefer dark mode btw
         </p>
         <p className="a-desc">
-          Hi! I'm Advika. In the past few years I've developed a love for coding, some languages I have experience with are shown below.
-          What I really like about programming is the amount of creative freedom you get to make anything you want. Soon, I hope to add some 3D animations to this site. 
-          Aside from that, I love being outdoors and spending time with my friends and family.
+          I'm Advika! In the past few years I've developed a love for coding, some languages I have experience with are shown below.
+          What I really like about programming is the amount of creative freedom you get to make anything you want. 
            This website is my first of many, and I'm excited to learn more!
            
         
         </p>
         </div>
 
-        <Carousel className="slider">
+        <Carousel className="slider-1" interval="1000">
           
 
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="item  "
           src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
@@ -59,7 +58,7 @@ const About = () => {
         />
 
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="item-3"
           src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
@@ -72,7 +71,7 @@ const About = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="item-4"
           src="https://cdn-icons-png.flaticon.com/512/919/919827.png"
@@ -85,7 +84,7 @@ const About = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="item-5"
           src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"

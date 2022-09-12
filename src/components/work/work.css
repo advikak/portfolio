@@ -1,20 +1,25 @@
 .w {
     height: 100vh;
     display: flex;
-   
+
+  
     flex-direction: column;
 
 
   }
   
+  .slider-2 {
+    padding: 20px;
+  }
   
   
   .w-container{
-      padding: 150px;
+      padding: 120px 200px 100px;
+      height: 100vh;
   }
 
   .w-desc{
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .w-sub {
@@ -66,10 +71,18 @@
     visibility: hidden;
   }
   
+
+  .carousel-control-prev-icon{
+    visibility: hidden ;
+  }
   
   @media screen and (max-width:980px) {
+    .w{
+      height: 100vh;
+    }
       .w-container{
-        padding: 30px;
+        padding: 20px;
+   
       }
 
       .w-title{
@@ -82,7 +95,7 @@
 
       .w-desc{
         font-size: 15px;
-        padding: 20px;
+        padding: 10px;
       }
 
       .item {
@@ -97,13 +110,15 @@
     margin-top: 0px;
 }
 
+
 .item-3 {
     width:30%;
     height: 120px;
     margin-top: 0px;
 }
 
-.slider{
-  visibility: hidden;
+.slider-2 {
+  padding: 20px;
 }
+
   }

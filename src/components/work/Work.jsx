@@ -14,12 +14,11 @@ const Work = () => {
       While working at SMART technologies, I was able to efficiently and accurately process over 1000 software and hardware orders
        for the company. During this process, I was met with many conflicts such as missing customer information in Salesforce, or order
         delays causing customer dissatisfaction. In order to resolve conflicts like this I effectively communicated with the sales team,
-         as well as customers in order to ensure their satisfaction. For instance, if a product had an extended lead time, I would contact 
-         customers and inform them about the situation and alternatives, such as alternative products. I was also able to gain experience 
+         as well as customers in order to ensure their satisfaction. I was also able to gain experience 
          using Power BI as I volunteered to help the business analytics team with creating visualizations with defective product data.
       </p>
 
-      <Carousel className="slider">
+      <Carousel className="slider-2" interval="1000">
       <Carousel.Item>
         <img
           className="item"

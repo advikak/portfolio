@@ -28,7 +28,7 @@ const App = () => {
       <About />
       <ProductList />
       <Work/>
-      <Contact />
+    
       
     </div> :
     <div className="page"
@@ -43,7 +43,7 @@ const App = () => {
     <About />
     <ProductList />
     <Work/>
-    <Contact />
+  
     
   </div>
   );

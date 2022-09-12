@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     
+    
   }
   
   .a-left {
@@ -16,9 +17,7 @@
   
   .a-right {
     flex: 1;
-    text-align: center;
     padding-right: 100px;
-
     align-items: center;
     justify-content: center;
   
@@ -54,6 +53,7 @@
     border-radius: 30px;
     position: relative;
     overflow: hidden;
+    animation: pulse 10s infinite;
     
   }
   
@@ -87,18 +87,22 @@
 
   }
 
+  .slider-1 {
+    padding: 20px;
+  }
+  
+
 
   .carousel-indicators {
     visibility: hidden;
   }
+  
       
   
 
   @media screen and (max-width:680px) {
     .a{
-      text-align: center;
       display: flex;
-   
       position: relative;
       margin-left: 100px;
     }
@@ -119,9 +123,8 @@
     .a-card.bg, .a-award {
       display: none;
     }
+    .slider-1{
+      visibility: hidden;
+    }
 
-
-
-
-    
 }
